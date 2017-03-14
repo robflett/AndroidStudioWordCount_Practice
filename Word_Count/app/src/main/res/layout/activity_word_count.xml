@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.codeclan.word_count.WordCountActivity"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id = "@+id/textBlock"
+        android:textSize="24dp"
+        android:hint="@string/text_block"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        android:layout_gravity="center"
+
+        android:layout_width="340dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/click"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_height="wrap_content"
+        android:text="@string/click"
+        android:textAllCaps="false"
+        android:onClick="onShakeButtonClicked"
+
+        />
+
+</android.support.constraint.ConstraintLayout>
