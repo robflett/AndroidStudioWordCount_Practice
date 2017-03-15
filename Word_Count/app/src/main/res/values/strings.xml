@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Word Count App! Fun!</string>
-    <string name="text_block">Enter some text and click the button to count the occurences of each word!</string>
+    <string name="text_block">Enter some text and click the button to count the occurrences of each word!</string>
     <string name="click">Click Here!</string>
 </resources>
